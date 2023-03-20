@@ -1,0 +1,217 @@
+/* Ketik code anda dibaris terbawah */
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  li{
+    list-style: none;
+  }
+
+  input, textarea{
+    width:100%;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:18px;
+    border:1px solid #dee7ec;
+    
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    padding: 50px 15px;
+    margin: 0 auto;
+  }
+
+  .header{
+    width: 100%;
+    background-color: #404146;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    margin-top: 10px;
+    padding: 0 30px;
+  }
+
+  .header-brand {
+    float: left;
+    color: white;
+    padding: 10px 0;
+    margin-right: 40px;
+    letter-spacing: 5px;
+  }
+  
+  .header-menu h1{
+    margin-right: -25px;
+  }
+  
+  .header-menu a {
+    line-height: 65px;
+    padding: 0 15px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .hero {
+    padding: 100px;
+    color: #404146;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 100px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  .hero span{
+    color: #F1D00E;
+  }
+
+  .hero h2{
+    font-size: 50px;
+    font-weight: lighter;
+  }
+  
+  .hero img{
+    width: 25%;
+  }
+
+  .section-header h1{
+    color: #404146;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .section-bg{
+    background-color: #f7f7f7;
+  }
+
+  .tentang p{
+    text-align: center;
+    opacity: 0.7;
+    padding-bottom: 20px;
+  }
+  
+  .lessons{
+    display: flex;
+  }
+  .lesson {
+    float: left;
+    
+  }
+  
+  .lesson-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .lesson-icon img{
+    width: 100%;
+    box-shadow: 1px 2px #404146;
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  
+  .txt-contents {
+    width: 100%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+    text-align: center;
+  }
+
+  .hubungi input{
+    display: block;
+  }
+  .contact-submit{
+    background-color:#F7E989;
+    color:#000;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  .footer {
+    background-color: #2f5167;
+    color: #fff;
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 32px;
+  }
+  
+  .footer-list {
+    float: right;
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
+  }
+  
+  
+  /* Ketik code Anda dibaris bawah */
+  span.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+  
